@@ -1,0 +1,2 @@
+#!/bin/sh
+coffee ext/phonegap-server/app.coffee

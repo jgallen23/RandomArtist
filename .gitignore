@@ -3,4 +3,5 @@
 *.pbxuser
 .DS_Store
 build
-www/phonegap.js
+www/phonegap*
+www/static/models.js
