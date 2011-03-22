@@ -1,3 +1,6 @@
 [submodule "ext/phonegap-iphone"]
 	path = ext/phonegap-iphone
 	url = https://github.com/jgallen23/phonegap-iphone.git
+[submodule "ext/phonegap-server"]
+	path = ext/phonegap-server
+	url = git://github.com/jgallen23/phonegap-server.git
