@@ -5,4 +5,5 @@
 
 // Override this to use your project specific PHONEGAPLIB. 
 // You can base it off the current project path, $(PROJECT_DIR)
-PHONEGAPLIB = $(PHONEGAPLIB)
+//PHONEGAPLIB = $(PHONEGAPLIB)
+PHONEGAPLIB = $(PROJECT_DIR)/ext/phonegap-iphone/PhoneGapLib
