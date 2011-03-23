@@ -12,6 +12,7 @@ exports.ui = {
 		],
 		'js': [
 			'models.js',
+			'views.js',
 			'appcontroller.js'
 		]
 	}

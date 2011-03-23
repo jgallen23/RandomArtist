@@ -5,26 +5,14 @@ html(lang="en")
     meta(name="viewport", content="width = device-width, initial-scale = 1.0, user-scalable = no, maximum-scale = 1.0")
     != mash("common", "css", debug)
   body
-    .Page
+    .Page#ArtistList
       header
         h1 Random Artist 
         button.right Refresh
       section#wrapper(role='content')
         ul.List
-          li Test 1
-          li Test 2
-          li Test 4
-          li Test 5
-          li Test 6
-          li Test 6
-          li Test 6
-          li Test 6
-          li Test 6
-          li Test 6
-          li Test 6
-          li Test 6
-          li Test 6
-      footer Footer
+    script#ArtistListTemplate(type='text/template')
+      <% for (var i = 0; i < artists.length; i++) { %>
+      <li><%= artists[i].get("name") %></li>
+      <% } %>
     != mash("common", "js", debug)
-    script
-      new iScroll("wrapper"); 
