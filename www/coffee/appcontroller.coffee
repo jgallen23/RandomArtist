@@ -1,4 +1,6 @@
 Artists.bind "refresh", ->
 	console.log "refresh"
-	console.log Artists.models
+	random = Artists.randomize 10
+	for artist in random
+		console.log artist.get "name"
 Artists.fetch()
