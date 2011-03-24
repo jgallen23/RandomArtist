@@ -4,4 +4,4 @@
 .DS_Store
 build
 www/phonegap*
-www/static/models.js
+www/coffee/compiled/*.js

@@ -13,8 +13,8 @@ exports.ui =
 		'css': [
 		]
 		'js': [
-			'models.js'
-			'views.js'
-			'appcontroller.js'
+			'compiled/models.js'
+			'compiled/views.js'
+			'compiled/appcontroller.js'
 		]
 
