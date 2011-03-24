@@ -3,7 +3,7 @@ html(lang="en")
   head
     title iStyle
     meta(name="viewport", content="width = device-width, initial-scale = 1.0, user-scalable = no, maximum-scale = 1.0")
-    != mash("common", "css", debug)
+    != masher.execute("common", "css", debug)
   body
     .Page#ArtistList
       header
@@ -15,4 +15,4 @@ html(lang="en")
       <% for (var i = 0; i < artists.length; i++) { %>
       <li><%= artists[i].get("name") %></li>
       <% } %>
-    != mash("common", "js", debug)
+    != masher.execute("common", "js", debug)
