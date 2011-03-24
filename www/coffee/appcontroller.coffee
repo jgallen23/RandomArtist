@@ -1,3 +1,3 @@
 Artists.bind "refresh", ->
-	new ArtistListView id: "ArtistList"
+	new ArtistListView el: $ "#ArtistList"
 Artists.fetch()

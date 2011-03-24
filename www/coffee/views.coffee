@@ -5,14 +5,11 @@ window.ArtistListView = Backbone.View.extend
 	initialize: ->
 		@scroller = new iScroll "wrapper"
 		Artists.bind "randomize", (random) =>
-			console.log random
 			@collection = random
 			@render()
 		@refresh()
 	render: ->
-		console.log @collection
-		console.log @template artists: @collection
-		console.log $("ul.List")[0]
+		
 		$("ul.List", @el).html @template artists: @collection
 		setTimeout =>
 			@scroller.refresh()
