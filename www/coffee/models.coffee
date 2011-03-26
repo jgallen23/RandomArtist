@@ -4,7 +4,8 @@ window.Artist = Backbone.Model.extend
 
 window.ArtistList = Backbone.Collection.extend
 	model: Artist
-	url: "/ui/artist_list.json"
+	#url: "/ui/artist_list.json"
+	url : "http://dl.dropbox.com/u/184467/artist_list.json"
 	randomize: (count) ->
 		max = @length
 		random = for num in [0..count]

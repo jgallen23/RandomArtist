@@ -4,4 +4,5 @@
 .DS_Store
 build
 www/phonegap*
-www/coffee/compiled/*.js
+www/compiled/*
+www/lib/*
